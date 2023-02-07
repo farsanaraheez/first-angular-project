@@ -1,0 +1,159 @@
+/*about us*/
+.abthd {
+    padding: 180px 0 135px;
+    background: #fff;
+    position: relative;
+}
+
+.abtBnr {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.abtBnr h1 {
+    font-weight: 800;
+    font-size: 50px;
+    color: #0e134f;
+    margin: 0;
+}
+
+.abtBnr span {
+    font-size: inherit;
+    font-weight: inherit;
+    color: #2f39bf;
+}
+
+.abtBnr p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #42526e;
+    margin: 25px 0 0;
+
+}
+
+.abthd .shapeTriangle {
+    position: absolute;
+    left: 0;
+    transform: translateX(-40%);
+}
+
+.abthd .shapeCircle {
+    max-width: 100px;
+    position: absolute;
+    right: 1px;
+    height: 144px;
+    opacity: .5;
+    margin-right: 8px;
+}
+
+.abtSts {
+    padding: 100px 0;
+    background-color: #f8f9fb;
+}
+
+.abtSts-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abtSts-left {
+    max-width: 500px;
+    margin-right: 30px
+}
+
+.abtSts-left h2 {
+    font-weight: 800;
+    font-size: 31px;
+    color: #0e134f;
+    margin: 0;
+}
+
+.abtSts-left p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #42526e;
+    margin: 20px 0 0;
+}
+
+.abtSts-rgt {
+    max-width: 450px;
+}
+
+.abtSts-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Sts-card {
+    width: calc(50% - 15px);
+    background: #fff;
+    box-shadow: 0 4px 40px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Sts-card h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2f39bf;
+}
+
+.Sts-card p {
+    font-weight: 400;
+    font-size: 17px;
+    color: rgba(66, 82, 110, .7);
+}
+.abtleadrshp {
+    background-color: #f8f9fb;
+    padding: 80px 0;
+}
+
+.abtleadrshp-hd {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.abtleadrshp-hd h2 {
+    font-weight: 800;
+    font-size: 31px;
+    color: #0e134f;
+    margin: 0;
+}
+
+.abtleadrshp-hd p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #42526e;
+    margin: 20px 0 0;
+}
+
+.abtleadshp-team {
+    margin-top: 30px;
+}
+
+.teamMemberCard {
+    background: linear-gradient(0deg, #fff, #fff), #f7eadc;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.cardHead img {
+    width: 100%;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: 130px
+}
